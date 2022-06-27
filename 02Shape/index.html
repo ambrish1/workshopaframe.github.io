@@ -9,6 +9,18 @@
   </head>
   <body>
     <a-scene background="color: #333333">
+          
+      <a-cone id="myCone"
+        width="4"
+        height="3"
+        depth="2"
+        color="yellow" 
+             position = "5 1.25 -3"
+             rotation = "0 40 0"
+             scale = "1 1 1"
+        shadow>
+      </a-cone>
+      
       <a-box id="myBox"
         width="3"
         height="3"
@@ -20,16 +32,6 @@
         shadow>
       </a-box>
       
-      <a-cone id="myCone"
-        width="4"
-        height="3"
-        depth="2"
-        color="green" 
-             position = "4 1.25 -3"
-             rotation = "0 70 0"
-             scale = "0.5 0.5 0.5"
-        shadow>
-      </a-cone>
     </a-scene>
   </body>
 </html>
